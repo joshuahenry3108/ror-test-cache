@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Third project
-  appName: ror-test-app
+  project: Untitled Project
+  appName: ror-app
   env:
     staging:
       branch: main
