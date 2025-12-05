@@ -27,6 +27,7 @@ revolte:
               RAILS_ENV: production
               RAILS_MASTER_KEY: a8995b446917058172c313502da2f449
               PORT: '3000'
+              DATABASE_CONNECTION_STRING: '#{db.dbConnectionString}'
             preScript:
               - bundle exec rails db:migrate
               - bundle exec rails db:seed
@@ -66,6 +67,7 @@ revolte:
               DATABASE_USERNAME: '#{db.dbUsername}'
               DATABASE_PASSWORD: '#{db.dbPassword}'
               DATABASE_NAME: '#{db.dbName}'
+              DATABASE_CONNECTION_STRING: '{db.dbConnectionString}'
               CACHE_HOST: '#{cache.cacheHost}'
               CACHE_PORT: '#{cache.cachePort}'
               CACHE_PASSWORD: '#{cache.cachePassword}'
