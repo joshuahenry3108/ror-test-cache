@@ -124,7 +124,7 @@ revolte:
               - bundle exec rails db:seed
           specifications:
             cpu: 2
-            memory: 1
+            memory: 2
             storage: 30
             autoScaling:
               replica:
